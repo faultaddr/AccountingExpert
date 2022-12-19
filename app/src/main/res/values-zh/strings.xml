@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="agree">保存</string>
+    <string name="disagree">返回</string>
+    <string name="editor_dialog">开始记账</string>
+    <string name="title_account">账户</string>
+    <string name="title_findings">发现</string>
+</resources>
