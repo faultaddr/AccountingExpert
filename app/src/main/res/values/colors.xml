@@ -8,7 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="colorPrimary">#ffffff</color>
-    <color name="colorPrimaryDark">#DCDCDC</color>
+    <color name="colorPrimaryDark">#ffffff</color>
     <color name="colorAccent">#ffffff</color>
     <color name="green">#8edd22</color>
     <color name="grey_back">#DCDCDC</color>

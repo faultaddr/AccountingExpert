@@ -2,6 +2,7 @@ pluginManagement {
     repositories {
         google()
         mavenCentral()
+        jcenter()
         gradlePluginPortal()
     }
 }
@@ -10,6 +11,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        jcenter()
         maven { url 'https://jitpack.io' }
     }
 
@@ -17,13 +19,15 @@ dependencyResolutionManagement {
 buildscript {
     repositories {
         mavenCentral()
+        jcenter()
     }
     dependencies {
         classpath 'org.greenrobot:greendao-gradle-plugin:3.3.0'
+
     }
 }
 
 rootProject.name = "AccountingExpert"
 include ':app'
-include ':calendarview'
 include ':greenDaoGenerator'
+include ':calendarview'
